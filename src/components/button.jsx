@@ -3,15 +3,15 @@ import { twMerge } from 'tailwind-merge';
 
 
 function Button({ 
-	children,
-	primary,
-	secondary,
-	success,
-	warning,
-	danger,
-	outline,
-	rounded,
-	...rest
+  children,
+  primary,
+  secondary,
+  success,
+  warning,
+  danger,
+  outline,
+  rounded,
+  ...rest
 }) {
 
 	const classes = twMerge(className(rest.className, 'px-3 py-1.5 border flex items-center', {
